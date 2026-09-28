@@ -9,9 +9,9 @@ export function Education() {
           key={item.title}
           className="rounded-xl px-5 py-3.5 md:px-6 md:py-4"
         >
-          <h2 className="text-sm font-semibold md:text-[0.95rem]">
+          <h3 className="text-sm font-semibold md:text-[0.95rem]">
             {item.title}
-          </h2>
+          </h3>
           <p className="mt-1 text-sm leading-snug text-ivory/90">{item.body}</p>
           <p className="mt-1.5 text-sm">
             <span aria-hidden="true">→ </span>

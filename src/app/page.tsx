@@ -1,3 +1,4 @@
+import { BlockHeading } from "@/components/block-heading";
 import { Education } from "@/components/education";
 import { Experience } from "@/components/experience";
 import { Hero } from "@/components/hero";
@@ -13,10 +14,40 @@ export default function Home() {
       <Hero />
       <div className="mx-auto w-full max-w-5xl px-5 pt-12 pb-4 sm:px-8 sm:pt-16 md:px-10">
         <div className="flex flex-col gap-12 md:gap-16">
-          <Intro />
-          <Experience />
-          <Education />
-          <Study />
+          <section
+            className="flex flex-col gap-6"
+            aria-labelledby="intro-heading"
+          >
+            <BlockHeading id="intro-heading">
+              {site.headings.intro}
+            </BlockHeading>
+            <Intro />
+          </section>
+          <section
+            className="flex flex-col gap-6"
+            aria-labelledby="experience-heading"
+          >
+            <BlockHeading id="experience-heading">
+              {site.headings.experience}
+            </BlockHeading>
+            <Experience />
+          </section>
+          <section
+            className="flex flex-col gap-6"
+            aria-labelledby="education-heading"
+          >
+            <BlockHeading id="education-heading">
+              {site.headings.education}
+            </BlockHeading>
+            <Education />
+          </section>
+          <section
+            className="flex flex-col gap-6"
+            aria-labelledby="study-heading"
+          >
+            <BlockHeading id="study-heading">{site.headings.study}</BlockHeading>
+            <Study />
+          </section>
         </div>
         <SiteFooter />
       </div>

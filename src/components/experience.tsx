@@ -32,9 +32,9 @@ export function Experience() {
     <div className="flex flex-col gap-4">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <InkBox className="flex flex-col gap-4 p-6 md:p-7">
-          <h2 className="text-base leading-snug font-semibold md:text-lg">
+          <h3 className="text-base leading-snug font-semibold md:text-lg">
             {kinectid.heading}
-          </h2>
+          </h3>
           <StatStrip stats={kinectid.stats} />
           <ul className="list-disc space-y-3 pl-5 text-sm leading-relaxed md:text-[0.95rem]">
             {kinectid.bullets.map((bullet) => (
@@ -47,9 +47,9 @@ export function Experience() {
           <TagLine tags={kinectid.tags} />
         </InkBox>
         <InkBox className="flex flex-col gap-4 p-6 md:p-7">
-          <h2 className="text-base leading-snug font-semibold md:text-lg">
+          <h3 className="text-base leading-snug font-semibold md:text-lg">
             {olive.heading}
-          </h2>
+          </h3>
           <StatStrip stats={olive.stats} />
           <ul className="list-disc space-y-3 pl-5 text-sm leading-relaxed md:text-[0.95rem]">
             {olive.bullets.map((bullet) => (
@@ -64,9 +64,9 @@ export function Experience() {
       </div>
       <div className="flex justify-center">
         <InkBox className="flex w-full flex-col gap-4 p-6 md:w-[calc((100%-1rem)/2)] md:p-7">
-          <h2 className="text-base leading-snug font-semibold md:text-lg">
+          <h3 className="text-base leading-snug font-semibold md:text-lg">
             {cloudcustom.heading}
-          </h2>
+          </h3>
           <p className="text-sm leading-relaxed md:text-[0.95rem]">
             {cloudcustom.summary}
           </p>

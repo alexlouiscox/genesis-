@@ -15,6 +15,12 @@ export const site = {
     videoSrc: "/hero.mp4",
     posterSrc: "/hero-poster.jpg",
   },
+  headings: {
+    intro: "Introduction",
+    experience: "Professional experience",
+    education: "Standout education achievements",
+    study: "Self-directed study",
+  },
   intro: [
     "I graduated from the University of Bath in 2026 with a 2:1 in Accounting & Management. Alongside my degree, I spent four years on renewable energy installation sites, which taught me how a business actually runs, from the job site through to the numbers.",
     "I'm at my best in the detail: researching, organising and analysing data to find where value is being created or lost, then communicating it clearly to the people who need it.",
@@ -90,16 +96,16 @@ export const site = {
   },
   education: [
     {
-      title: "Business and the Natural Environment",
-      body: "An evaluation of whether National Grid's operations, governance and strategy reflect genuine sustainability.",
-      achievement: "3rd place, PRME Undergraduate Essay Competition",
-      result: "75%",
-    },
-    {
       title: "Entrepreneurial Finance & Intellectual Property",
       body: "A full venture capital due diligence report on Spring Broth Ltd, a live Crowdcube investment case. Referee: Dimo Dimov",
       achievement: "86%",
       result: undefined,
+    },
+    {
+      title: "Business and the Natural Environment",
+      body: "An evaluation of whether National Grid's operations, governance and strategy reflect genuine sustainability.",
+      achievement: "3rd place, PRME Undergraduate Essay Competition",
+      result: "75%",
     },
     {
       title: "Dissertation",
