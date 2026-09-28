@@ -97,9 +97,9 @@ export const site = {
     },
     {
       title: "Entrepreneurial Finance & Intellectual Property",
-      body: "A full venture capital due diligence report on Spring Broth Ltd, a live Crowdcube investment case.",
+      body: "A full venture capital due diligence report on Spring Broth Ltd, a live Crowdcube investment case. Referee: Dimo Dimov",
       achievement: "86%",
-      result: "Referee: Dimo Dimov",
+      result: undefined,
     },
     {
       title: "Dissertation",
