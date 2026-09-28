@@ -22,7 +22,7 @@ export const site = {
     study: "Self-directed study",
   },
   intro: [
-    "I graduated from the University of Bath in 2026 with a 2:1 in Accounting & Management. Alongside my degree, I spent four years on renewable energy installation sites, which taught me how a business actually runs, from the job site through to the numbers.",
+    "Two perspectives shape how I look at a business. My Accounting & Management degree at Bath (2:1) taught me to read it through the numbers. Four years on renewable energy installation sites showed me what sits behind them.",
     "I'm at my best in the detail: researching, organising and analysing data to find where value is being created or lost, then communicating it clearly to the people who need it.",
     "I'm now looking for my first role where I can put that to work, whether that's analysing companies as investments, helping clients understand and improve their businesses, or supporting financial decisions from the inside.",
   ],
