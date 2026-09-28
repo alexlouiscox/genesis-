@@ -48,7 +48,7 @@ export function Hero() {
   }
 
   return (
-    <header className="relative h-48 w-full overflow-hidden bg-hero md:h-56 lg:h-60">
+    <header className="relative h-64 w-full overflow-hidden bg-hero md:h-80 lg:h-96">
       <Image
         src={site.hero.posterSrc}
         alt=""
