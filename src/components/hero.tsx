@@ -20,6 +20,21 @@ export function Hero() {
     return () => media.removeEventListener("change", update);
   }, []);
 
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video || reducedMotion) return;
+    video.muted = true;
+    video.defaultMuted = true;
+    const tryPlay = () => {
+      void video.play().catch(() => {
+        /* Autoplay may still wait for canplay; onPlay updates state. */
+      });
+    };
+    tryPlay();
+    video.addEventListener("canplay", tryPlay);
+    return () => video.removeEventListener("canplay", tryPlay);
+  }, [reducedMotion]);
+
   const showVideo = !reducedMotion && videoReady;
 
   function togglePlayback() {
@@ -48,7 +63,7 @@ export function Hero() {
           className={
             showVideo
               ? "absolute inset-0 h-full w-full object-cover"
-              : "pointer-events-none absolute h-0 w-0 opacity-0"
+              : "absolute inset-0 h-full w-full object-cover opacity-0"
           }
           poster={site.hero.posterSrc}
           src={site.hero.videoSrc}
@@ -56,7 +71,8 @@ export function Hero() {
           loop
           playsInline
           autoPlay
-          preload="metadata"
+          preload="auto"
+          onCanPlay={() => setVideoReady(true)}
           onLoadedData={() => setVideoReady(true)}
           onPlay={() => setPlaying(true)}
           onPause={() => setPlaying(false)}
