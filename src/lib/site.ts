@@ -46,7 +46,7 @@ export const site = {
   experience: {
     kinectid: {
       heading:
-        "Kinectid | Junior Renewable Energy Engineer | London | Sep 2022 – August 2026",
+        "Kinectid | Junior Renewable Energy Engineer | London | September 2022 – August 2026",
       stats: [
         { value: "40+", label: "installations" },
         { value: "20+", label: "job costs reviewed" },
@@ -62,7 +62,7 @@ export const site = {
         },
         {
           label: "Internal finance project:",
-          text: "Investigating the sources of the company's losses. This involves designing sampling techniques to match on-site receipts against what was quoted. The task also requires me to build methods to estimate missing data where records have gaps, drawing on first-hand knowledge of how engineers work on site.",
+          text: "Investigated the sources of the company's losses. This involved designing sampling techniques to match on-site receipts against what was quoted. The task also required me to build methods to estimate missing data where records have gaps, drawing on first-hand knowledge of how engineers work on site.",
         },
       ],
       tags: [
@@ -82,7 +82,7 @@ export const site = {
       bullets: [
         {
           label: "Data & segmentation:",
-          text: "Extracted ordering data from the company's CRM into Excel and applied a pre-defined segmentation framework to investigate which products accounts with different profiles were ordering, and why.",
+          text: "Extracted ordering data from the company's CRM into Excel and applied a pre-defined segmentation framework, and investigated which products accounts with different profiles were ordering, and why.",
         },
         {
           label: "Recommendations:",
@@ -102,7 +102,7 @@ export const site = {
       ],
     },
     cloudcustom: {
-      heading: "Cloudcustom | Trainee Consultant | Remote | August – Sep 2023",
+      heading: "Cloudcustom | Trainee Consultant | Remote | August – September 2023",
       summary:
         "A B2B lead generation agency, booking sales meetings on behalf of tech and marketing clients.",
       bullets: [
