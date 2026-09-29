@@ -11,13 +11,26 @@ function FooterItem({
     return <span>{children}</span>;
   }
 
+  const external = href.startsWith("http");
+
   return (
     <a
       href={href}
       className="underline-offset-4 transition-colors hover:text-copper/80 hover:underline"
+      {...(external
+        ? { target: "_blank", rel: "noopener noreferrer" }
+        : {})}
     >
       {children}
     </a>
+  );
+}
+
+function Dot() {
+  return (
+    <span aria-hidden="true" className="px-1.5">
+      ·
+    </span>
   );
 }
 
@@ -30,17 +43,13 @@ export function SiteFooter() {
           aria-label="Contact"
           className="flex flex-wrap items-center gap-x-1 text-copper"
         >
-          <FooterItem href={site.email ? `mailto:${site.email}` : undefined}>
-            Email
-          </FooterItem>
-          <span aria-hidden="true" className="px-1.5">
-            ·
-          </span>
+          <FooterItem href={`mailto:${site.email}`}>Email</FooterItem>
+          <Dot />
           <FooterItem href={site.linkedin}>LinkedIn</FooterItem>
-          <span aria-hidden="true" className="px-1.5">
-            ·
-          </span>
-          <FooterItem href={site.cvHref}>Download CV</FooterItem>
+          <Dot />
+          <FooterItem href={site.phoneHref}>{site.phone}</FooterItem>
+          <Dot />
+          <FooterItem href="#downloads">Downloads</FooterItem>
         </nav>
       </div>
     </footer>

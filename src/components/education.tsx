@@ -25,6 +25,16 @@ export function Education() {
           </p>
         </InkBox>
       ))}
+      <p className="pt-2 text-sm text-forest">
+        {site.educationNote}{" "}
+        <a
+          href="#downloads"
+          className="font-medium text-copper underline-offset-4 hover:underline"
+        >
+          Downloads
+        </a>
+        .
+      </p>
     </div>
   );
 }
