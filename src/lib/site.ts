@@ -29,7 +29,7 @@ export const site = {
   experience: {
     kinectid: {
       heading:
-        "Kinectid | Junior Renewable Energy Engineer | London | Sep 2022 – Aug 2026",
+        "Kinectid | Junior Renewable Energy Engineer | London | Sep 2022 – August 2026",
       stats: [{ value: "40+", label: "installations" }],
       bullets: [
         {
@@ -82,7 +82,7 @@ export const site = {
       ],
     },
     cloudcustom: {
-      heading: "Cloudcustom | Trainee Consultant | Remote | Aug – Sep 2023",
+      heading: "Cloudcustom | Trainee Consultant | Remote | August – Sep 2023",
       summary:
         "A B2B lead generation agency, booking sales meetings on behalf of tech and marketing clients.",
       bullets: [
@@ -94,7 +94,7 @@ export const site = {
   education: [
     {
       title: "Entrepreneurial Finance & Intellectual Property",
-      body: "A full venture capital due diligence report on Spring Broth Ltd, a live Crowdcube investment case. Report included: market sizing, valuation modelling, cap table analysis and return scenario forecasting. Referee: Dimo Dimov",
+      body: "A full venture capital due diligence report on Spring Broth Ltd, a live Crowdcube investment case. Report included: market sizing, valuation modelling, cap table analysis and return scenario forecasting. Reference: Dimo Dimov",
       achievement: "86%",
       result: undefined,
     },
