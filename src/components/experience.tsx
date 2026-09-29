@@ -11,7 +11,7 @@ function StatStrip({
       {stats.map((stat, index) => (
         <span key={stat.label}>
           {index > 0 ? " · " : null}
-          <span className="font-semibold text-copper">{stat.value}</span>{" "}
+          <span className="font-semibold text-ivory">{stat.value}</span>{" "}
           {stat.label}
         </span>
       ))}

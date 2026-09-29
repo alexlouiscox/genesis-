@@ -29,7 +29,7 @@ export function Education() {
         {site.educationNote}{" "}
         <a
           href={site.downloadsHref}
-          className="font-medium text-copper underline-offset-4 hover:underline"
+          className="font-medium text-copper underline underline-offset-4 hover:opacity-70"
         >
           Downloads
         </a>

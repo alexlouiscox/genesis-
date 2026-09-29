@@ -105,7 +105,7 @@ export function Hero() {
           </Button>
         </div>
       ) : null}
-      <p className="absolute right-4 bottom-4 z-10 text-right text-sm font-medium tracking-wide text-copper sm:right-8 sm:bottom-5 sm:text-base">
+      <p className="absolute right-4 bottom-4 z-10 text-right text-sm font-medium tracking-wide text-ivory sm:right-8 sm:bottom-5 sm:text-base">
         {site.slogan}
       </p>
     </header>
