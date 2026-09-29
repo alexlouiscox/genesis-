@@ -36,7 +36,10 @@ function Dot() {
 
 export function SiteFooter() {
   return (
-    <footer className="mt-16 border-t border-ink/15 pt-5 pb-10 md:mt-20">
+    <footer
+      id="contact"
+      className="mt-16 border-t border-ink/15 pt-5 pb-10 md:mt-20"
+    >
       <div className="flex flex-col gap-3 text-sm sm:flex-row sm:items-center sm:justify-between">
         <p className="font-medium text-ink">Contact</p>
         <nav
@@ -47,9 +50,9 @@ export function SiteFooter() {
           <Dot />
           <FooterItem href={site.linkedin}>LinkedIn</FooterItem>
           <Dot />
-          <FooterItem href={site.phoneHref}>{site.phone}</FooterItem>
+          <span>{site.phone}</span>
           <Dot />
-          <FooterItem href="#downloads">Downloads</FooterItem>
+          <FooterItem href={site.downloadsHref}>Downloads</FooterItem>
         </nav>
       </div>
     </footer>

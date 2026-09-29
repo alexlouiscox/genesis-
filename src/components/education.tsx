@@ -28,7 +28,7 @@ export function Education() {
       <p className="pt-2 text-sm text-forest">
         {site.educationNote}{" "}
         <a
-          href="#downloads"
+          href={site.downloadsHref}
           className="font-medium text-copper underline-offset-4 hover:underline"
         >
           Downloads

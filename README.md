@@ -25,13 +25,6 @@ npm start -- --port 43187
 
 ## Download files to add
 
-Place these PDFs in `public/downloads/` using these exact names (or say if the names should change):
+The footer **Downloads** link points at `public/downloads/cv.pdf`. Drop the CV there, and any university PDFs in the same folder if you want them linked later.
 
-| File on the site | Path |
-| --- | --- |
-| CV | `public/downloads/cv.pdf` |
-| Entrepreneurial Finance report | `public/downloads/entrepreneurial-finance-report.pdf` |
-| Business and the Natural Environment essay | `public/downloads/business-and-the-natural-environment.pdf` |
-| Dissertation | `public/downloads/dissertation.pdf` |
-
-Until those files are in the repo, the Downloads links will 404. Hero video is already at `public/hero.mp4`. Contact details are in `src/lib/site.ts`.
+Until `cv.pdf` is in the repo, that link will 404. Hero video is already at `public/hero.mp4`. Contact details are in `src/lib/site.ts`.

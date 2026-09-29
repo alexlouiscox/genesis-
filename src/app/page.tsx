@@ -1,5 +1,4 @@
 import { BlockHeading } from "@/components/block-heading";
-import { Downloads } from "@/components/downloads";
 import { Education } from "@/components/education";
 import { Experience } from "@/components/experience";
 import { Hero } from "@/components/hero";
@@ -43,21 +42,11 @@ export default function Home() {
             <Education />
           </section>
           <section
-            className="flex scroll-mt-8 flex-col gap-6"
+            className="flex flex-col gap-6"
             aria-labelledby="study-heading"
           >
             <BlockHeading id="study-heading">{site.headings.study}</BlockHeading>
             <Study />
-          </section>
-          <section
-            id="downloads"
-            className="flex scroll-mt-8 flex-col gap-6"
-            aria-labelledby="downloads-heading"
-          >
-            <BlockHeading id="downloads-heading">
-              {site.headings.downloads}
-            </BlockHeading>
-            <Downloads />
           </section>
         </div>
         <SiteFooter />

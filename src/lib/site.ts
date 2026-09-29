@@ -8,7 +8,7 @@ export const site = {
   email: "alex.louis.cox@gmail.com",
   linkedin: "https://www.linkedin.com/in/alexander-cox-058597338/",
   phone: "07834 620819",
-  phoneHref: "tel:+447834620819",
+  downloadsHref: "/downloads/cv.pdf",
   hero: {
     videoSrc: "/hero.mp4",
     posterSrc: "/hero-poster.jpg",
@@ -18,21 +18,8 @@ export const site = {
     experience: "Professional experience",
     education: "Standout education achievements",
     study: "Self-directed study",
-    downloads: "Downloads",
   },
   educationNote: "Full copies of the report, essay and dissertation are in",
-  downloads: [
-    { label: "CV (PDF)", href: "/downloads/cv.pdf" },
-    {
-      label: "Entrepreneurial Finance & Intellectual Property report (PDF)",
-      href: "/downloads/entrepreneurial-finance-report.pdf",
-    },
-    {
-      label: "Business and the Natural Environment essay (PDF)",
-      href: "/downloads/business-and-the-natural-environment.pdf",
-    },
-    { label: "Dissertation (PDF)", href: "/downloads/dissertation.pdf" },
-  ],
   intro: [
     "My studies and my work have both been driven by the same question: how do businesses really work? At the University of Bath, where I earned a 2:1 in Accounting & Management, I learned to prepare and read financial statements, and to judge real businesses against a different set of criteria in each module. But understanding a business on paper is only half the picture. Working inside businesses, from renewable energy installations to a specialist food supplier, showed me the other half: the real costs, pressures and trade-offs, and how managers work through them.",
     "I'm at my best in the detail: researching, organising and analysing data to get beneath the surface of a business, turning my findings into clear, practical insights for the people making the decisions.",
