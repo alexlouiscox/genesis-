@@ -7,10 +7,10 @@ function StatStrip({
   stats: readonly { value: string; label: string }[];
 }) {
   return (
-    <p className="text-sm tracking-wide">
+    <p className="flex flex-wrap gap-x-2 gap-y-1 text-sm tracking-wide">
       {stats.map((stat, index) => (
-        <span key={stat.label}>
-          {index > 0 ? " · " : null}
+        <span key={stat.label} className="whitespace-nowrap">
+          {index > 0 ? <span aria-hidden="true">· </span> : null}
           <span className="font-semibold text-ivory">{stat.value}</span>{" "}
           {stat.label}
         </span>
