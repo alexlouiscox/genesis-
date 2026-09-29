@@ -17,7 +17,7 @@ export function Study() {
         </ul>
       </InkBox>
       <InkBox className="px-6 py-5 md:px-7">
-        <p className="text-sm font-medium text-emerald">{readingList.label}</p>
+        <p className="text-sm font-medium text-copper">{readingList.label}</p>
         <ul className="mt-3 space-y-1 text-sm italic leading-relaxed md:text-[0.95rem]">
           {readingList.titles.map((title) => (
             <li key={title}>{title}</li>

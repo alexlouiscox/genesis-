@@ -14,7 +14,7 @@ function FooterItem({
   return (
     <a
       href={href}
-      className="underline-offset-4 transition-colors hover:text-emerald/80 hover:underline"
+      className="underline-offset-4 transition-colors hover:text-copper/80 hover:underline"
     >
       {children}
     </a>
@@ -28,7 +28,7 @@ export function SiteFooter() {
         <p className="font-medium text-ink">Contact</p>
         <nav
           aria-label="Contact"
-          className="flex flex-wrap items-center gap-x-1 text-emerald"
+          className="flex flex-wrap items-center gap-x-1 text-copper"
         >
           <FooterItem href={site.email ? `mailto:${site.email}` : undefined}>
             Email

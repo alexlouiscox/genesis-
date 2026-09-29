@@ -82,7 +82,10 @@ export function Hero() {
           }}
         />
       ) : null}
-      <div className="absolute inset-0 bg-forest/45" aria-hidden="true" />
+      <div
+        className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent"
+        aria-hidden="true"
+      />
       {showVideo ? (
         <div className="absolute bottom-4 left-4 z-10 sm:bottom-5 sm:left-6">
           <Button
@@ -102,7 +105,7 @@ export function Hero() {
           </Button>
         </div>
       ) : null}
-      <p className="absolute right-4 bottom-4 z-10 text-right text-sm font-medium tracking-wide text-emerald sm:right-8 sm:bottom-5 sm:text-base">
+      <p className="absolute right-4 bottom-4 z-10 text-right text-sm font-medium tracking-wide text-copper sm:right-8 sm:bottom-5 sm:text-base">
         {site.slogan}
       </p>
     </header>
