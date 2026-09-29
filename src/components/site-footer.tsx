@@ -50,8 +50,6 @@ export function SiteFooter() {
           <Dot />
           <FooterItem href={site.linkedin}>LinkedIn</FooterItem>
           <Dot />
-          <span>{site.phone}</span>
-          <Dot />
           <FooterItem href={site.downloadsHref}>Downloads</FooterItem>
         </nav>
       </div>

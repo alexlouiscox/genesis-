@@ -7,8 +7,24 @@ export const site = {
   slogan: "Investment · Consulting · Finance",
   email: "alex.louis.cox@gmail.com",
   linkedin: "https://www.linkedin.com/in/alexander-cox-058597338/",
-  phone: "07834 620819",
-  downloadsHref: "/downloads/cv.pdf",
+  downloadsHref: "/downloads",
+  downloads: [
+    {
+      label: "Entrepreneurial Finance & Intellectual Property report",
+      href: "/downloads/entrepreneurial-finance-report.pdf",
+      fileName: "Entrepreneurial-Finance-Intellectual-Property-Report.pdf",
+    },
+    {
+      label: "Business and the Natural Environment essay",
+      href: "/downloads/business-and-the-natural-environment.pdf",
+      fileName: "Business-and-the-Natural-Environment.pdf",
+    },
+    {
+      label: "Dissertation",
+      href: "/downloads/dissertation.pdf",
+      fileName: "Dissertation.pdf",
+    },
+  ],
   hero: {
     videoSrc: "/hero.mp4",
     posterSrc: "/hero-poster.jpg",
