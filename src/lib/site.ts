@@ -68,6 +68,7 @@ export const site = {
         "Cost analysis",
         "Process improvement",
         "Commercial awareness",
+        "Working to tight deadlines",
       ],
     },
     olive: {
