@@ -71,8 +71,9 @@ export const site = {
       heading:
         "The Real Olive Company | Sales & Data Analyst Intern | Bristol | July 2025",
       stats: [
-        { value: "150+", label: "accounts analysed" },
-        { value: "30", label: "high-volume accounts targeted" },
+        { value: "200+", label: "accounts analysed" },
+        { value: "20+", label: "jobs analysed" },
+        { value: "30", label: "key accounts identified" },
       ],
       bullets: [
         {
@@ -85,7 +86,7 @@ export const site = {
         },
         {
           label: "Outcome:",
-          text: "Identified 30 high-volume accounts for the sales team to contact, each with a tailored recommendation. Some had stopped ordering altogether, while others were strong candidates for the trial-stock strategy. Presented findings to the sales and marketing team in a weekly meeting.",
+          text: "Identified 30 key accounts for the sales team to contact, each with a tailored recommendation. Some had stopped ordering altogether, while others were strong candidates for the trial-stock strategy. Presented findings to the sales and marketing team in a weekly meeting.",
         },
       ],
       tags: [
