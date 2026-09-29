@@ -12,19 +12,9 @@ export function Study() {
         </p>
         <ul className="list-disc space-y-3 pl-5 text-sm leading-relaxed md:text-[0.95rem]">
           {study.bullets.map((bullet) => (
-            <li key={bullet.label}>
-              <span className="font-semibold">{bullet.label}</span> {bullet.text}
-            </li>
+            <li key={bullet}>{bullet}</li>
           ))}
         </ul>
-        <div className="space-y-1 text-sm">
-          <p>
-            <span className="font-semibold">Skills:</span> {study.skills}
-          </p>
-          <p>
-            <span className="font-semibold">Interests:</span> {study.interests}
-          </p>
-        </div>
       </InkBox>
       <InkBox className="px-6 py-5 md:px-7">
         <p className="text-sm font-medium text-emerald">{readingList.label}</p>

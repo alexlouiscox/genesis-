@@ -22,22 +22,19 @@ export const site = {
     study: "Self-directed study",
   },
   intro: [
-    "Two perspectives shape how I look at a business. My Accounting & Management degree at Bath (2:1) taught me to read it through the numbers. Four years on renewable energy installation sites showed me what sits behind them.",
-    "I'm at my best in the detail: researching, organising and analysing data to find where value is being created or lost, then communicating it clearly to the people who need it.",
+    "Two very different paths shape how I look at a business. At the University of Bath, where I earned a 2:1 in Accounting & Management, I learned to prepare and read financial statements, and to judge real businesses against a different set of criteria in each module. But analysing a business from behind a screen is only half the picture. Working inside businesses, from renewable energy installations to a specialist food supplier, showed me the other half: the real costs, pressures and trade-offs, and how managers work through them, learning from what worked and what didn't.",
+    "I'm at my best in the detail: researching, organising and analysing data to get beneath the surface of a business, then turning what I find into clear, practical insight for the people making the decisions.",
     "I'm now looking for my first role where I can put that to work, whether that's analysing companies as investments, helping clients understand and improve their businesses, or supporting financial decisions from the inside.",
   ],
   experience: {
     kinectid: {
       heading:
         "Kinectid | Junior Renewable Energy Engineer | London | Sep 2022 – Aug 2026",
-      stats: [
-        { value: "40+", label: "installations" },
-        { value: "20+", label: "jobs analysed" },
-      ],
+      stats: [{ value: "40+", label: "installations" }],
       bullets: [
         {
           label: "On site:",
-          text: "Worked across 40+ solar PV and air source heat pump installations for commercial and residential clients, including the projects shown above, and later specialised in solar.",
+          text: "Worked across 40+ solar PV and air source heat pump installations for commercial and residential clients, including the projects shown above.",
         },
         {
           label: "Operations:",
@@ -45,7 +42,7 @@ export const site = {
         },
         {
           label: "Internal finance project:",
-          text: "Investigating the sources of the company's losses. This involves designing sampling techniques to match on-site receipts against what was quoted across 20+ jobs, and building methods to estimate missing data where records have gaps, drawing on first-hand knowledge of how engineers work on site.",
+          text: "Investigating the sources of the company's losses. This involves designing sampling techniques to match on-site receipts against what was quoted across jobs. This task also required me to build methods in order to estimate missing data, drawing on first-hand knowledge of how engineers work on site.",
         },
       ],
       tags: [
@@ -60,20 +57,20 @@ export const site = {
         "The Real Olive Company | Sales & Data Analyst Intern | Bristol | July 2025",
       stats: [
         { value: "150+", label: "accounts analysed" },
-        { value: "20", label: "high-volume accounts flagged" },
+        { value: "30", label: "high-volume accounts targeted" },
       ],
       bullets: [
         {
           label: "Data & segmentation:",
-          text: "Extracted account-level ordering data from the company's CRM into Excel and applied a pre-defined segmentation framework, using structured filtering to compare what butchers, hotels and farmers' markets were ordering, and where.",
+          text: "Extracted ordering data from the company's CRM into Excel and applied a pre-defined segmentation framework to investigate which products accounts with different profiles were ordering, and why.",
         },
         {
           label: "Recommendations:",
           text: "Used these ordering patterns to identify the product ranges performing best with similar businesses elsewhere, and proposed trial-stock strategies to introduce those proven ranges to high-volume accounts not yet stocking them.",
         },
         {
-          label: "Retention:",
-          text: "Identified 20 previously high-volume accounts that had stopped ordering, flagged them for follow-up, and presented findings and recommendations to the sales and marketing team.",
+          label: "Outcome:",
+          text: "Identified 30 high-volume accounts for the sales team to contact, each with a tailored recommendation. Some had stopped ordering altogether, while others were strong candidates for a trial-stock strategy. Presented findings to the sales and marketing team in a weekly meeting.",
         },
       ],
       tags: [
@@ -97,19 +94,19 @@ export const site = {
   education: [
     {
       title: "Entrepreneurial Finance & Intellectual Property",
-      body: "A full venture capital due diligence report on Spring Broth Ltd, a live Crowdcube investment case. Referee: Dimo Dimov",
+      body: "A full venture capital due diligence report on Spring Broth Ltd, a live Crowdcube investment case. Report included: market sizing, valuation modelling, cap table analysis and return scenario forecasting. Referee: Dimo Dimov",
       achievement: "86%",
       result: undefined,
     },
     {
       title: "Business and the Natural Environment",
-      body: "An evaluation of whether National Grid's operations, governance and strategy reflect genuine sustainability.",
+      body: "Assessed whether National Grid is close to achieving genuine sustainability, focusing on organisational tools, management practices and strategic choices.",
       achievement: "3rd place, PRME Undergraduate Essay Competition",
       result: "75%",
     },
     {
       title: "Dissertation",
-      body: "Does BYD's competitive advantage transfer to the German market? Answered using a weighted composite index.",
+      body: "Focused on whether BYD's incumbent competitive advantage transfers to the German market, including the construction of a weighted composite index, with consideration to macroeconomic themes such as trade tariffs and industrial policy.",
       achievement: "71%",
       result: undefined,
     },
@@ -118,18 +115,9 @@ export const site = {
     paragraph:
       "Ongoing study of value investing in the tradition of Benjamin Graham and Warren Buffett.",
     bullets: [
-      {
-        label: "Built an automated Excel stock screener",
-        text: "to filter listed companies against value-investing criteria.",
-      },
-      {
-        label: "Use AI to condense lengthy company filings",
-        text: "into focused briefs, built around the principles my value-investing study has shown matter most.",
-      },
+      "Built an automated Excel stock screener to filter listed companies against value-investing criteria.",
+      "Built an AI model to condense lengthy company filings into focused briefs, built around the principles my value-investing study has shown matter most.",
     ],
-    skills:
-      "Excel · Google Sheets · Sage Accounting · AI prompt engineering (certified, 2024)",
-    interests: "Tennis · Boxing · Water-skiing",
   },
   readingList: {
     label: "Reading list",
