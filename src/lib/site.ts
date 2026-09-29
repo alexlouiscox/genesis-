@@ -32,7 +32,7 @@ export const site = {
     posterSrc: "/hero-poster.jpg",
   },
   headings: {
-    intro: "Introduction",
+    intro: "About me",
     experience: "Professional experience",
     education: "Standout education achievements",
     study: "Self-directed study",
@@ -46,7 +46,7 @@ export const site = {
   experience: {
     kinectid: {
       heading:
-        "Kinectid | Junior Renewable Energy Engineer | London | September 2022 – August 2026",
+        "Kinectid | Multi Role | London | September 2022 – August 2026",
       stats: [
         { value: "40+", label: "installations" },
         { value: "20+", label: "jobs analysed" },
@@ -115,9 +115,9 @@ export const site = {
   education: [
     {
       title: "Entrepreneurial Finance & Intellectual Property",
-      body: "A full venture capital due diligence report on Spring Broth Ltd, a live Crowdcube investment case.",
+      body: "A full venture capital due diligence report on Spring Broth Ltd, a live Crowdcube investment case. Referee: Dimo Dimov",
       achievement: "86%",
-      result: "Referee: Dimo Dimov",
+      result: undefined,
     },
     {
       title: "Featured: Business and the Natural Environment",
