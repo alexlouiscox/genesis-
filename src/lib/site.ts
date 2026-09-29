@@ -45,7 +45,10 @@ export const site = {
     kinectid: {
       heading:
         "Kinectid | Junior Renewable Energy Engineer | London | Sep 2022 – August 2026",
-      stats: [{ value: "40+", label: "installations" }],
+      stats: [
+        { value: "40+", label: "installations" },
+        { value: "20+", label: "jobs analysed" },
+      ],
       bullets: [
         {
           label: "On site:",
@@ -72,7 +75,6 @@ export const site = {
         "The Real Olive Company | Sales & Data Analyst Intern | Bristol | July 2025",
       stats: [
         { value: "200+", label: "accounts analysed" },
-        { value: "20+", label: "jobs analysed" },
         { value: "30", label: "key accounts identified" },
       ],
       bullets: [
