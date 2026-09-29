@@ -49,7 +49,7 @@ export const site = {
         "Kinectid | Junior Renewable Energy Engineer | London | September 2022 – August 2026",
       stats: [
         { value: "40+", label: "installations" },
-        { value: "20+", label: "job costs reviewed" },
+        { value: "20+", label: "jobs analysed" },
       ],
       bullets: [
         {
@@ -70,6 +70,7 @@ export const site = {
         "Cost analysis",
         "Process improvement",
         "Commercial awareness",
+        "Working to deadlines",
       ],
     },
     olive: {
