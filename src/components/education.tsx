@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { InkBox } from "@/components/ink-box";
 import { site } from "@/lib/site";
 
@@ -27,12 +28,12 @@ export function Education() {
       ))}
       <p className="pt-2 text-sm text-forest">
         {site.educationNote}{" "}
-        <a
+        <Link
           href={site.downloadsHref}
           className="font-medium text-copper underline underline-offset-4 hover:opacity-70"
         >
-          Downloads
-        </a>
+          download
+        </Link>
         .
       </p>
     </div>

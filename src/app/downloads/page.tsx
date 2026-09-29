@@ -35,7 +35,7 @@ export default function DownloadsPage() {
                   <h3 className="text-sm font-semibold md:text-[0.95rem]">
                     {item.label}
                   </h3>
-                  <p className="mt-1 text-sm text-ivory/90">PDF</p>
+                  <p className="mt-1 text-sm text-ivory/90">Download PDF</p>
                 </InkBox>
               </a>
             ))}
