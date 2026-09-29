@@ -23,7 +23,7 @@ export const site = {
   },
   intro: [
     "Two very different paths shape how I look at a business. At the University of Bath, where I earned a 2:1 in Accounting & Management, I learned to prepare and read financial statements, and to judge real businesses against a different set of criteria in each module. But understanding a business on paper is only half the picture. Working inside businesses, from renewable energy installations to a specialist food supplier, showed me the other half: the real costs, pressures and trade-offs, and how managers work through them, learning from what worked and what didn't.",
-    "I'm at my best in the detail: researching, organising and analysing data to get beneath the surface of a business, then turning what I find into clear, practical insight for the people making the decisions.",
+    "I'm at my best in the detail: researching, organising and analysing data to get beneath the surface of a business, turning my findings into clear, practical insights for the people making the decisions.",
     "I'm now looking for my first role where I can put that to work, whether that's analysing companies as investments, helping clients understand and improve their businesses, or supporting financial decisions from the inside.",
   ],
   experience: {
