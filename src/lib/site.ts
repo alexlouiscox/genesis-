@@ -22,7 +22,7 @@ export const site = {
     study: "Self-directed study",
   },
   intro: [
-    "My studies and my work have both been driven by the same question: how do businesses really work? At the University of Bath, where I earned a 2:1 in Accounting & Management, I learned to prepare and read financial statements, and to judge real businesses against a different set of criteria in each module. But understanding a business on paper is only half the picture. Working inside businesses, from renewable energy installations to a specialist food supplier, showed me the other half: the real costs, pressures and trade-offs, and how managers work through them, learning from what worked and what didn't.",
+    "My studies and my work have both been driven by the same question: how do businesses really work? At the University of Bath, where I earned a 2:1 in Accounting & Management, I learned to prepare and read financial statements, and to judge real businesses against a different set of criteria in each module. But understanding a business on paper is only half the picture. Working inside businesses, from renewable energy installations to a specialist food supplier, showed me the other half: the real costs, pressures and trade-offs, and how managers work through them.",
     "I'm at my best in the detail: researching, organising and analysing data to get beneath the surface of a business, turning my findings into clear, practical insights for the people making the decisions.",
     "I'm now looking for my first role where I can put that to work, whether that's analysing companies as investments, helping clients understand and improve their businesses, or supporting financial decisions from the inside.",
   ],
@@ -42,7 +42,7 @@ export const site = {
         },
         {
           label: "Internal finance project:",
-          text: "Investigating the sources of the company's losses. This involves designing sampling techniques to match on-site receipts against what was quoted across jobs. This task also required me to build methods in order to estimate missing data, drawing on first-hand knowledge of how engineers work on site.",
+          text: "Investigated the sources of the company's losses. This involved designing sampling techniques to match on-site receipts against what was quoted across jobs. This task also required me to build methods in order to estimate missing data, drawing on first-hand knowledge of how engineers work on site.",
         },
       ],
       tags: [
@@ -70,7 +70,7 @@ export const site = {
         },
         {
           label: "Outcome:",
-          text: "Identified 30 high-volume accounts for the sales team to contact, each with a tailored recommendation. Some had stopped ordering altogether, while others were strong candidates for a trial-stock strategy. Presented findings to the sales and marketing team in a weekly meeting.",
+          text: "Identified 30 high-volume accounts for the sales team to contact, each with a tailored recommendation. Some had stopped ordering altogether, while others were strong candidates for the trial-stock strategy. Presented findings to the sales and marketing team in a weekly meeting.",
         },
       ],
       tags: [
@@ -116,7 +116,7 @@ export const site = {
       "Ongoing study of value investing in the tradition of Benjamin Graham and Warren Buffett.",
     bullets: [
       "Built an automated Excel stock screener to filter listed companies against value-investing criteria.",
-      "Built an AI model to condense lengthy company filings into focused briefs, built around the principles my value-investing study has shown matter most.",
+      "Built an AI model to condense lengthy company filings into focused briefs, built around principles learnt from my self study.",
     ],
   },
   readingList: {

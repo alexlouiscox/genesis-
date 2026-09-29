@@ -9,7 +9,7 @@ export function InkBox({ children, className }: InkBoxProps) {
   return (
     <article
       className={cn(
-        "rounded-2xl bg-ink text-ivory",
+        "rounded-2xl bg-forest text-ivory",
         className,
       )}
     >

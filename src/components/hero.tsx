@@ -82,7 +82,7 @@ export function Hero() {
           }}
         />
       ) : null}
-      <div className="absolute inset-0 bg-hero/55" aria-hidden="true" />
+      <div className="absolute inset-0 bg-forest/45" aria-hidden="true" />
       {showVideo ? (
         <div className="absolute bottom-4 left-4 z-10 sm:bottom-5 sm:left-6">
           <Button
