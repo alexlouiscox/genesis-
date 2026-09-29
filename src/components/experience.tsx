@@ -21,7 +21,7 @@ function StatStrip({
 
 function TagLine({ tags }: { tags: readonly string[] }) {
   return (
-    <p className="text-xs tracking-wide text-ivory/75">{tags.join(" · ")}</p>
+    <p className="mt-auto text-xs tracking-wide text-ivory/75">{tags.join(" · ")}</p>
   );
 }
 
@@ -31,7 +31,7 @@ export function Experience() {
   return (
     <div className="flex flex-col gap-4">
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-        <InkBox className="flex flex-col gap-4 p-6 md:p-7">
+        <InkBox className="flex h-full flex-col gap-4 p-6 md:p-7">
           <h3 className="text-base leading-snug font-semibold md:text-lg">
             {kinectid.heading}
           </h3>
@@ -46,7 +46,7 @@ export function Experience() {
           </ul>
           <TagLine tags={kinectid.tags} />
         </InkBox>
-        <InkBox className="flex flex-col gap-4 p-6 md:p-7">
+        <InkBox className="flex h-full flex-col gap-4 p-6 md:p-7">
           <h3 className="text-base leading-snug font-semibold md:text-lg">
             {olive.heading}
           </h3>
