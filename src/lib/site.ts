@@ -10,12 +10,12 @@ export const site = {
   downloadsHref: "/downloads",
   downloads: [
     {
-      label: "Entrepreneurial Finance & Intellectual Property report",
+      label: "Entrepreneurial Finance & Intellectual Property",
       href: "/downloads/entrepreneurial-finance-report.pdf",
       fileName: "Entrepreneurial-Finance-Intellectual-Property-Report.pdf",
     },
     {
-      label: "Business and the Natural Environment essay",
+      label: "Business and the Natural Environment",
       href: "/downloads/business-and-the-natural-environment.pdf",
       fileName: "Business-and-the-Natural-Environment.pdf",
     },
@@ -37,8 +37,8 @@ export const site = {
   },
   educationNote: "Full copies of the report, essay and dissertation are in",
   intro: [
-    "My studies and my work have both been driven by the same question: how do businesses really work? At the University of Bath, where I earned a 2:1 in Accounting & Management, I learned to prepare and read financial statements, and to judge real businesses against a different set of criteria in each module. But understanding a business on paper is only half the picture. Working inside businesses, from renewable energy installations to a specialist food supplier, showed me the other half: the real costs, pressures and trade-offs, and how managers work through them.",
-    "I'm at my best in the detail: researching, organising and analysing data to get beneath the surface of a business, turning my findings into clear, practical insights for the people making the decisions.",
+    "My studies and my work have both been driven by the same question: how do businesses really work? At the University of Bath, where I earned a 2:1 in Accounting & Management, I learned to prepare and read financial statements, and to judge real businesses against a different set of criteria in each module. But understanding a business on paper is only half the picture. Working inside businesses, from renewable energy installations to a specialist food supplier, showed me the other half: the real costs, pressures and trade-offs, and how managers work through them, learning from what worked and what didn't.",
+    "I'm at my best in the detail: researching, organising and analysing data to understand what's really driving a business, then communicating what I find clearly to the people making the decisions.",
     "I'm now looking for my first role where I can put that to work, whether that's analysing companies as investments, helping clients understand and improve their businesses, or supporting financial decisions from the inside.",
   ],
   experience: {
@@ -47,7 +47,7 @@ export const site = {
         "Kinectid | Junior Renewable Energy Engineer | London | Sep 2022 – August 2026",
       stats: [
         { value: "40+", label: "installations" },
-        { value: "20+", label: "jobs analysed" },
+        { value: "20+", label: "job costs reviewed" },
       ],
       bullets: [
         {
@@ -60,7 +60,7 @@ export const site = {
         },
         {
           label: "Internal finance project:",
-          text: "Investigated the sources of the company's losses. This involved designing sampling techniques to match on-site receipts against what was quoted across jobs. This task also required me to build methods in order to estimate missing data, drawing on first-hand knowledge of how engineers work on site.",
+          text: "Investigating the sources of the company's losses. This involves designing sampling techniques to match on-site receipts against what was quoted. The task also requires me to build methods to estimate missing data where records have gaps, drawing on first-hand knowledge of how engineers work on site.",
         },
       ],
       tags: [
@@ -68,15 +68,14 @@ export const site = {
         "Cost analysis",
         "Process improvement",
         "Commercial awareness",
-        "Working to tight deadlines",
       ],
     },
     olive: {
       heading:
         "The Real Olive Company | Sales & Data Analyst Intern | Bristol | July 2025",
       stats: [
-        { value: "200+", label: "accounts analysed" },
-        { value: "30", label: "key accounts identified" },
+        { value: "150+", label: "accounts analysed" },
+        { value: "30", label: "high-volume opportunities identified" },
       ],
       bullets: [
         {
@@ -89,7 +88,7 @@ export const site = {
         },
         {
           label: "Outcome:",
-          text: "Identified 30 key accounts for the sales team to contact, each with a tailored recommendation. Some had stopped ordering altogether, while others were strong candidates for the trial-stock strategy. Presented findings to the sales and marketing team in a weekly meeting.",
+          text: "Identified 30 high-volume accounts for the sales team to contact, each with a tailored recommendation. Some had stopped ordering altogether, while others were strong candidates for the trial-stock strategy. Presented findings to the sales and marketing team in a weekly meeting.",
         },
       ],
       tags: [
@@ -113,37 +112,29 @@ export const site = {
   education: [
     {
       title: "Entrepreneurial Finance & Intellectual Property",
-      body: "A full venture capital due diligence report on Spring Broth Ltd, a live Crowdcube investment case. Report included: market sizing, valuation modelling, cap table analysis and return scenario forecasting. Reference: Dimo Dimov",
+      body: "A full venture capital due diligence report on Spring Broth Ltd, a live Crowdcube investment case.",
       achievement: "86%",
-      result: undefined,
+      result: "Referee: Dimo Dimov",
     },
     {
-      title: "Business and the Natural Environment",
-      body: "Assessed whether National Grid is close to achieving genuine sustainability, focusing on organisational tools, management practices and strategic choices.",
+      title: "Featured: Business and the Natural Environment",
+      body: "An evaluation of whether National Grid's operations, governance and strategy reflect genuine sustainability.",
       achievement: "3rd place, PRME Undergraduate Essay Competition",
       result: "75%",
     },
     {
       title: "Dissertation",
-      body: "Focused on whether BYD's incumbent competitive advantage transfers to the German market, including the construction of a weighted composite index, with consideration to macroeconomic themes such as trade tariffs and industrial policy.",
+      body: "Does BYD's competitive advantage transfer to the German market? Answered using a weighted composite index.",
       achievement: "71%",
       result: undefined,
     },
   ],
   study: {
     paragraph:
-      "Ongoing study of value investing in the tradition of Benjamin Graham and Warren Buffett.",
+      "Ongoing study of value investing in the tradition of Benjamin Graham and Warren Buffett. Key texts: The Intelligent Investor (Graham), Warren Buffett and the Interpretation of Financial Statements (Mary Buffett & David Clark), The Essays of Warren Buffett (Buffett & Cunningham).",
     bullets: [
       "Built an automated Excel stock screener to filter listed companies against value-investing criteria.",
-      "Built an AI model to condense lengthy company filings into focused briefs, built around principles learnt from my self study.",
-    ],
-  },
-  readingList: {
-    label: "Reading list",
-    titles: [
-      "The Intelligent Investor (Graham)",
-      "Warren Buffett and the Interpretation of Financial Statements (Mary Buffett & David Clark)",
-      "The Essays of Warren Buffett (Buffett & Cunningham)",
+      "Built an AI model that condenses lengthy company filings into focused briefs, structured around the principles I've learnt through self-directed study.",
     ],
   },
 } as const;
