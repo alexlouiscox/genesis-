@@ -46,7 +46,7 @@ export function SiteFooter() {
           aria-label="Contact"
           className="flex flex-wrap items-center gap-x-1 text-copper"
         >
-          <FooterItem href={`mailto:${site.email}`}>Email</FooterItem>
+          <FooterItem href={site.emailHref}>Email</FooterItem>
           <Dot />
           <FooterItem href={site.linkedin}>LinkedIn</FooterItem>
           <Dot />

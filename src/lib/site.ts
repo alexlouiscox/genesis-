@@ -6,6 +6,8 @@ export const site = {
   name: "Alex Cox",
   slogan: "Investment · Consulting · Finance",
   email: "alex.louis.cox@gmail.com",
+  emailHref: "mailto:alex.louis.cox@gmail.com",
+  // Public profile URL — not linkedin.com/feed/
   linkedin: "https://www.linkedin.com/in/alexander-cox-058597338/",
   downloadsHref: "/downloads",
   downloads: [
