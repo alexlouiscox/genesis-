@@ -69,7 +69,7 @@ export const site = {
         "Cost analysis",
         "Process improvement",
         "Commercial awareness",
-        "Working to deadlines",
+        "Working to tight deadlines",
       ],
     },
     olive: {
@@ -85,12 +85,8 @@ export const site = {
           text: "Extracted ordering data from the company's CRM into Excel and applied a pre-defined segmentation framework, and investigated which products accounts with different profiles were ordering, and why.",
         },
         {
-          label: "Recommendations:",
-          text: "Used these ordering patterns to identify the product ranges performing best with similar businesses elsewhere, and proposed trial-stock strategies to introduce those proven ranges to high-volume accounts not yet stocking them.",
-        },
-        {
           label: "Outcome:",
-          text: "Identified 30 high-volume accounts for the sales team to contact, each with a tailored recommendation. Some had stopped ordering altogether, while others were strong candidates for the trial-stock strategy. Presented findings to the sales and marketing team in a weekly meeting.",
+          text: "Identified 30 high-volume accounts for the sales team to contact, each with a tailored recommendation. Some had stopped ordering altogether, while others weren't yet stocking ranges that were performing well with similar businesses, making them strong candidates for a trial-stock strategy. Presented findings to the sales and marketing team in a weekly meeting.",
         },
       ],
       tags: [
@@ -113,21 +109,21 @@ export const site = {
   },
   education: [
     {
-      title: "Entrepreneurial Finance & Intellectual Property",
-      body: "A full venture capital due diligence report on Spring Broth Ltd, a live Crowdcube investment case. Reference: Dimo Dimov",
+      title: "Entrepreneurial Finance and Intellectual Property",
+      body: "Conducted a full venture capital due diligence report on a live crowdcube investment case. Report included: market sizing, valuation modelling, cap table analysis and return scenario forecasting. (Reference: Dimo Dimov)",
       achievement: "86%",
       result: undefined,
     },
     {
-      title: "Featured: Business and the Natural Environment",
-      body: "An evaluation of whether National Grid's operations, governance and strategy reflect genuine sustainability.",
-      achievement: "3rd place, PRME Undergraduate Essay Competition",
-      result: "75%",
+      title: "Dissertation",
+      body: "Focused on whether BYD's incumbent competitive advantage transfers to the German market, including the construction of a weighted composite index, with consideration to macroeconomic themes such as trade tariffs and industrial policy.",
+      achievement: "71%",
+      result: undefined,
     },
     {
-      title: "Dissertation",
-      body: "Does BYD's competitive advantage transfer to the German market? Answered using a weighted composite index.",
-      achievement: "71%",
+      title: "Business and the Natural Environment",
+      body: "Assessed whether National Grid is close to achieving genuine sustainability, focusing on organisational tools, management practices and strategic choices. This essay achieved third place in the PRME undergraduate essay competition.",
+      achievement: "75%",
       result: undefined,
     },
   ],
