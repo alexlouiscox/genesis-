@@ -115,15 +115,15 @@ export const site = {
       result: undefined,
     },
     {
+      title: "Business and the Natural Environment",
+      body: "Assessed whether National Grid is close to achieving genuine sustainability, focusing on organisational tools, management practices and strategic choices.",
+      achievement: "3rd place, PRME undergraduate essay competition",
+      result: "75%",
+    },
+    {
       title: "Dissertation",
       body: "Focused on whether BYD's incumbent competitive advantage transfers to the German market, including the construction of a weighted composite index, with consideration to macroeconomic themes such as trade tariffs and industrial policy.",
       achievement: "71%",
-      result: undefined,
-    },
-    {
-      title: "Business and the Natural Environment",
-      body: "Assessed whether National Grid is close to achieving genuine sustainability, focusing on organisational tools, management practices and strategic choices. This essay achieved third place in the PRME undergraduate essay competition.",
-      achievement: "75%",
       result: undefined,
     },
   ],
