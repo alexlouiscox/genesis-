@@ -55,7 +55,7 @@ export const site = {
   },
   educationNote: "Full copies of the report, essay and dissertation are available to",
   intro: [
-    "I've always been curious about how businesses really work. My degree in Accounting & Management at the University of Bath (2:1) taught me how to analyse one: how to read its accounts, test its strategy and compare it with its competitors. My professional experience taught me what sits behind that analysis: the everyday costs, pressures and trade-offs that shape real decisions. Together, they let me read a business's numbers and understand the choices behind them.",
+    "I've always been curious about how businesses really work. My degree in Accounting & Management at the University of Bath (2:1) taught me how to analyse one: how to read its accounts, test its strategy and compare it with its competitors. My professional experience taught me what sits behind that analysis: the everyday costs, pressures and trade-offs that shape real decisions. Together, these skills give me the ability to read the numbers behind a business and understand the choices behind them.",
     "I'm at my best in the detail: researching, organising and analysing data to understand what's really driving a business, then communicating what I find clearly to the people making the decisions.",
     "I'm eager to put this to work, whether that's analysing companies as investments, helping clients understand and improve their businesses, or supporting financial decisions from the inside.",
   ],
