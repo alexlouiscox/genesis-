@@ -1,30 +1,7 @@
 import { site } from "@/lib/site";
 
-function FooterItem({
-  href,
-  children,
-}: {
-  href?: string;
-  children: React.ReactNode;
-}) {
-  if (!href) {
-    return <span>{children}</span>;
-  }
-
-  const external = href.startsWith("http");
-
-  return (
-    <a
-      href={href}
-      className="underline-offset-4 transition-colors hover:text-copper/80 hover:underline"
-      {...(external
-        ? { target: "_blank", rel: "noopener noreferrer" }
-        : {})}
-    >
-      {children}
-    </a>
-  );
-}
+const linkClassName =
+  "underline-offset-4 transition-colors hover:text-copper/80 hover:underline";
 
 function Dot() {
   return (
@@ -46,11 +23,22 @@ export function SiteFooter() {
           aria-label="Contact"
           className="flex flex-wrap items-center gap-x-1 text-copper"
         >
-          <FooterItem href={site.emailHref}>Email</FooterItem>
+          <a href={site.emailHref} className={linkClassName}>
+            Email
+          </a>
           <Dot />
-          <FooterItem href={site.linkedin}>LinkedIn</FooterItem>
+          <a
+            href={site.linkedin}
+            className={linkClassName}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
           <Dot />
-          <FooterItem href={site.downloadsHref}>Downloads</FooterItem>
+          <a href={site.downloadsHref} className={linkClassName}>
+            Downloads
+          </a>
         </nav>
       </div>
     </footer>
