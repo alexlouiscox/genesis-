@@ -18,9 +18,14 @@ export const site = {
       external: true,
     },
     {
-      label: "Default email app",
-      href: "mailto:alex.louis.cox@gmail.com",
-      external: false,
+      label: "Yahoo Mail",
+      href: "https://compose.mail.yahoo.com/?to=alex.louis.cox@gmail.com",
+      external: true,
+    },
+    {
+      label: "AOL",
+      href: "https://mail.aol.com/webmail-std/en-us/compose?to=alex.louis.cox@gmail.com",
+      external: true,
     },
   ],
   // Public profile URL — not linkedin.com/feed/
