@@ -6,8 +6,23 @@ export const site = {
   name: "Alex Cox",
   slogan: "Investment · Consulting · Finance",
   email: "alex.louis.cox@gmail.com",
-  emailHref:
-    "https://outlook.live.com/mail/0/deeplink/compose?to=alex.louis.cox@gmail.com",
+  emailProviders: [
+    {
+      label: "Outlook",
+      href: "https://outlook.live.com/mail/0/deeplink/compose?to=alex.louis.cox@gmail.com",
+      external: true,
+    },
+    {
+      label: "Gmail",
+      href: "https://mail.google.com/mail/?view=cm&fs=1&to=alex.louis.cox@gmail.com",
+      external: true,
+    },
+    {
+      label: "Default email app",
+      href: "mailto:alex.louis.cox@gmail.com",
+      external: false,
+    },
+  ],
   // Public profile URL — not linkedin.com/feed/
   linkedin: "https://www.linkedin.com/in/alexander-cox-058597338/",
   downloadsHref: "/downloads",

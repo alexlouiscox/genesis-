@@ -1,3 +1,4 @@
+import { EmailMenu } from "@/components/email-menu";
 import { site } from "@/lib/site";
 
 const linkClassName =
@@ -23,14 +24,7 @@ export function SiteFooter() {
           aria-label="Contact"
           className="flex flex-wrap items-center gap-x-1 text-copper"
         >
-          <a
-            href={site.emailHref}
-            className={linkClassName}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Email
-          </a>
+          <EmailMenu />
           <Dot />
           <a
             href={site.linkedin}
