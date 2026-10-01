@@ -32,7 +32,13 @@ export default function Home() {
                     alt="Alexander Cox"
                     fill
                     sizes="64px"
-                    className="origin-[50%_38%] scale-[1.55] object-cover object-[50%_38%]"
+                    className="object-cover"
+                    style={{
+                      objectFit: "cover",
+                      objectPosition: "50% 40%",
+                      transform: "scale(1.6)",
+                      transformOrigin: "50% 40%",
+                    }}
                     priority
                   />
                 </div>
