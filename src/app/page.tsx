@@ -15,35 +15,36 @@ export default function Home() {
       <div className="mx-auto w-full max-w-5xl px-5 pt-8 pb-4 sm:px-8 sm:pt-10 md:px-10">
         <div className="flex flex-col gap-12 md:gap-16">
           <section
-            className="flex flex-col gap-6"
+            className="flex items-start gap-8 md:gap-12"
             aria-labelledby="intro-heading"
           >
-            <div>
-              <div className="flex items-center gap-8 md:gap-12">
+            <div className="flex min-w-0 flex-1 flex-col gap-6">
+              <div>
                 <h2
                   id="intro-heading"
                   className="text-[1.75rem] leading-tight font-semibold tracking-tight text-copper md:text-3xl"
                 >
                   {site.headings.intro}
                 </h2>
-                <div
-                  data-about-portrait=""
-                  className="relative shrink-0 overflow-hidden rounded-full border-2 border-forest"
-                  style={{ width: 90, height: 90 }}
-                >
-                  <img
-                    src="/alex-cox.jpg"
-                    alt="Alexander Cox"
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
+                <span
+                  className="mt-2 block h-0.5 w-10 bg-copper"
+                  aria-hidden="true"
+                />
               </div>
-              <span
-                className="mt-2 block h-0.5 w-10 bg-copper"
-                aria-hidden="true"
+              <Intro />
+            </div>
+            <div
+              data-about-portrait=""
+              className="relative shrink-0 overflow-hidden rounded-full border-2 border-forest"
+              style={{ width: 132, height: 132 }}
+            >
+              <img
+                src="/alex-cox.jpg"
+                alt="Alexander Cox"
+                className="h-full w-full object-cover"
+                style={{ objectPosition: "50% 24%" }}
               />
             </div>
-            <Intro />
           </section>
           <section
             className="flex flex-col gap-6"
