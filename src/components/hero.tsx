@@ -1,7 +1,6 @@
 "use client";
 
 import { Pause, Play } from "lucide-react";
-import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { site } from "@/lib/site";
@@ -55,21 +54,10 @@ export function Hero() {
     <section className="relative w-full overflow-x-hidden bg-hero" aria-label="Hero">
       <div className="relative mx-auto w-3/4 overflow-hidden">
         <div className="relative aspect-video w-full overflow-hidden">
-        <Image
+        <img
           src={site.hero.posterSrc}
           alt=""
-          fill
-          priority
-          sizes="75vw"
-          className="object-cover object-top"
-          style={{
-            height: "128%",
-            width: "128%",
-            maxWidth: "none",
-            left: "50%",
-            transform: "translateX(-50%)",
-            top: 0,
-          }}
+          className="absolute top-0 left-1/2 h-[128%] w-[128%] max-w-none -translate-x-1/2 object-cover object-top"
         />
         {!reducedMotion ? (
           <video
