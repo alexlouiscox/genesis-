@@ -1,9 +1,8 @@
-import Image from "next/image";
+import { AboutIntro } from "@/components/about-intro";
 import { BlockHeading } from "@/components/block-heading";
 import { Education } from "@/components/education";
 import { Experience } from "@/components/experience";
 import { Hero } from "@/components/hero";
-import { Intro } from "@/components/intro";
 import { SiteFooter } from "@/components/site-footer";
 import { Study } from "@/components/study";
 import { site } from "@/lib/site";
@@ -12,43 +11,13 @@ export default function Home() {
   return (
     <main className="flex flex-1 flex-col bg-ivory">
       <Hero />
-      <div className="mx-auto w-full max-w-5xl px-5 pt-12 pb-4 sm:px-8 sm:pt-16 md:px-10">
+      <div className="mx-auto w-full max-w-5xl px-5 pt-8 pb-4 sm:px-8 sm:pt-10 md:px-10">
         <div className="flex flex-col gap-12 md:gap-16">
           <section
-            className="flex flex-col gap-6"
+            className="flex flex-col gap-5"
             aria-labelledby="intro-heading"
           >
-            <div>
-              <div className="flex items-center gap-16 md:gap-24">
-                <h2
-                  id="intro-heading"
-                  className="text-[1.75rem] leading-tight font-semibold tracking-tight text-copper md:text-3xl"
-                >
-                  {site.headings.intro}
-                </h2>
-                <div className="relative size-16 shrink-0 overflow-hidden rounded-full border-2 border-forest">
-                  <Image
-                    src="/alex-cox.jpg"
-                    alt="Alexander Cox"
-                    fill
-                    sizes="64px"
-                    className="object-cover"
-                    style={{
-                      objectFit: "cover",
-                      objectPosition: "50% 38%",
-                      transform: "scale(1.4)",
-                      transformOrigin: "50% 38%",
-                    }}
-                    priority
-                  />
-                </div>
-              </div>
-              <span
-                className="mt-2 block h-0.5 w-10 bg-copper"
-                aria-hidden="true"
-              />
-            </div>
-            <Intro />
+            <AboutIntro />
           </section>
           <section
             className="flex flex-col gap-6"
