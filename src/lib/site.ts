@@ -4,6 +4,7 @@
 
 export const site = {
   name: "Alex Cox",
+  url: "https://www.alexandercox.site",
   slogan: "Investment · Consulting · Finance",
   email: "alex.louis.cox@gmail.com",
   displayName: "Alexander Cox",

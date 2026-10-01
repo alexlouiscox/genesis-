@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Lora } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
+import { site } from "@/lib/site";
 import "./globals.css";
 
 const lora = Lora({
@@ -9,8 +10,19 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(site.url),
   title: "Alex Cox",
   description: "Investment · Consulting · Finance",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    url: site.url,
+    title: "Alexander Cox",
+    description: "Investment · Consulting · Finance",
+    siteName: "Alexander Cox",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
