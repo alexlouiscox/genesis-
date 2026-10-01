@@ -54,7 +54,7 @@ export function Hero() {
     <section className="relative w-full overflow-x-hidden bg-hero" aria-label="Hero">
       <div
         className="relative w-full overflow-hidden"
-        style={{ height: "min(67.6vh, 608px)" }}
+        style={{ height: "min(71.1vh, 640px)" }}
       >
         <img
           src={site.hero.posterSrc}
