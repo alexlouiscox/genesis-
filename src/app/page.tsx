@@ -1,8 +1,8 @@
-import { AboutIntro } from "@/components/about-intro";
 import { BlockHeading } from "@/components/block-heading";
 import { Education } from "@/components/education";
 import { Experience } from "@/components/experience";
 import { Hero } from "@/components/hero";
+import { Intro } from "@/components/intro";
 import { SiteFooter } from "@/components/site-footer";
 import { Study } from "@/components/study";
 import { site } from "@/lib/site";
@@ -14,10 +14,35 @@ export default function Home() {
       <div className="mx-auto w-full max-w-5xl px-5 pt-8 pb-4 sm:px-8 sm:pt-10 md:px-10">
         <div className="flex flex-col gap-12 md:gap-16">
           <section
-            className="flex flex-col gap-5"
+            className="flex flex-col gap-6"
             aria-labelledby="intro-heading"
           >
-            <AboutIntro />
+            <div>
+              <div className="flex items-center gap-8 md:gap-12">
+                <h2
+                  id="intro-heading"
+                  className="text-[1.75rem] leading-tight font-semibold tracking-tight text-copper md:text-3xl"
+                >
+                  {site.headings.intro}
+                </h2>
+                <div
+                  data-about-portrait=""
+                  className="relative shrink-0 overflow-hidden rounded-full border-2 border-forest"
+                  style={{ width: 90, height: 90 }}
+                >
+                  <img
+                    src="/alex-cox.jpg"
+                    alt="Alexander Cox"
+                    className="h-full w-full object-cover object-center"
+                  />
+                </div>
+              </div>
+              <span
+                className="mt-2 block h-0.5 w-10 bg-copper"
+                aria-hidden="true"
+              />
+            </div>
+            <Intro />
           </section>
           <section
             className="flex flex-col gap-6"
