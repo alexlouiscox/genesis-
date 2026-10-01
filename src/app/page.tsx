@@ -18,7 +18,7 @@ export default function Home() {
             aria-labelledby="intro-heading"
           >
             <div>
-              <div className="flex items-center justify-between gap-4">
+              <div className="flex items-center gap-5 md:gap-7">
                 <h2
                   id="intro-heading"
                   className="text-[1.75rem] leading-tight font-semibold tracking-tight text-copper md:text-3xl"
@@ -27,7 +27,7 @@ export default function Home() {
                 </h2>
                 <span
                   aria-hidden="true"
-                  className="size-10 shrink-0 rounded-full border-2 border-forest md:size-12"
+                  className="size-16 shrink-0 rounded-full border-2 border-forest md:size-20"
                 />
               </div>
               <span
