@@ -20,7 +20,8 @@ export function AboutIntro() {
       const wordBox = word.getBoundingClientRect();
       const rowBox = row.getBoundingClientRect();
       const wordMid = wordBox.top + wordBox.height / 2;
-      setOffset(wordMid - rowBox.top - CIRCLE_PX / 2);
+      const next = wordMid - rowBox.top - CIRCLE_PX / 2;
+      setOffset((prev) => (Math.abs(prev - next) < 0.5 ? prev : next));
     }
     place();
     const fonts = document.fonts?.ready;
@@ -61,7 +62,7 @@ export function AboutIntro() {
           style={{
             width: CIRCLE_PX,
             height: CIRCLE_PX,
-            marginTop: Math.max(0, offset),
+            marginTop: offset,
           }}
         >
           <img
@@ -69,10 +70,10 @@ export function AboutIntro() {
             alt="Alexander Cox"
             className="absolute left-1/2 top-1/2 max-w-none object-cover"
             style={{
-              width: "175%",
-              height: "175%",
-              objectPosition: "50% 30%",
-              transform: "translate(-50%, -42%)",
+              width: "155%",
+              height: "155%",
+              objectPosition: "50% 36%",
+              transform: "translate(-50%, -36%)",
             }}
           />
         </div>
