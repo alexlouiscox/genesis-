@@ -18,29 +18,29 @@ export default function Home() {
             className="flex flex-col gap-6"
             aria-labelledby="intro-heading"
           >
-            <div className="flex items-center gap-12 md:gap-16">
-              <div>
+            <div>
+              <div className="flex items-center gap-16 md:gap-24">
                 <h2
                   id="intro-heading"
                   className="text-[1.75rem] leading-tight font-semibold tracking-tight text-copper md:text-3xl"
                 >
                   {site.headings.intro}
                 </h2>
-                <span
-                  className="mt-2 block h-0.5 w-10 bg-copper"
-                  aria-hidden="true"
-                />
+                <div className="relative size-16 shrink-0 overflow-hidden rounded-full border-2 border-forest">
+                  <Image
+                    src="/alex-cox.jpg"
+                    alt="Alexander Cox"
+                    fill
+                    sizes="64px"
+                    className="origin-[50%_38%] scale-[1.55] object-cover object-[50%_38%]"
+                    priority
+                  />
+                </div>
               </div>
-              <div className="relative size-[180px] shrink-0 overflow-hidden rounded-full border-[3px] border-forest">
-                <Image
-                  src="/alex-cox.jpg"
-                  alt="Alexander Cox"
-                  fill
-                  sizes="180px"
-                  className="object-cover object-[50%_28%]"
-                  priority
-                />
-              </div>
+              <span
+                className="mt-2 block h-0.5 w-10 bg-copper"
+                aria-hidden="true"
+              />
             </div>
             <Intro />
           </section>

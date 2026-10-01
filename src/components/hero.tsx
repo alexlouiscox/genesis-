@@ -48,19 +48,28 @@ export function Hero() {
   }
 
   const mediaClassName = showVideo
-    ? "absolute inset-0 h-full w-full object-contain object-top"
-    : "absolute inset-0 h-full w-full object-contain object-top opacity-0";
+    ? "absolute top-0 left-1/2 h-[128%] w-[128%] max-w-none -translate-x-1/2 object-cover object-top"
+    : "absolute top-0 left-1/2 h-[128%] w-[128%] max-w-none -translate-x-1/2 object-cover object-top opacity-0";
 
   return (
-    <section className="relative w-full overflow-hidden bg-hero" aria-label="Hero">
-      <div className="relative aspect-video w-full">
+    <section className="relative w-full overflow-x-hidden bg-hero" aria-label="Hero">
+      <div className="relative mx-auto w-3/4 overflow-hidden">
+        <div className="relative aspect-video w-full overflow-hidden">
         <Image
           src={site.hero.posterSrc}
           alt=""
           fill
           priority
-          sizes="100vw"
-          className="object-contain object-top"
+          sizes="75vw"
+          className="object-cover object-top"
+          style={{
+            height: "128%",
+            width: "128%",
+            maxWidth: "none",
+            left: "50%",
+            transform: "translateX(-50%)",
+            top: 0,
+          }}
         />
         {!reducedMotion ? (
           <video
@@ -109,6 +118,7 @@ export function Hero() {
         <p className="absolute right-3 bottom-3 z-10 text-right text-sm font-medium tracking-wide text-ivory sm:right-6 sm:bottom-4 sm:text-base">
           {site.slogan}
         </p>
+        </div>
       </div>
     </section>
   );
