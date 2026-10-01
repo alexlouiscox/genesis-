@@ -21,7 +21,7 @@ export function EmailMenu({ tone = "default" }: EmailMenuProps) {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger className={triggerClassName}>
-        {site.email}
+        Email
       </DropdownMenuTrigger>
       <DropdownMenuContent
         align="start"

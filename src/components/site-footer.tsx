@@ -11,9 +11,9 @@ export function SiteFooter() {
         <h2 className="text-lg font-semibold tracking-tight">Contact</h2>
         <div className="flex flex-col gap-2 text-sm leading-relaxed">
           <p>{site.displayName}</p>
-          <p className="flex flex-wrap items-baseline gap-x-1.5">
-            <span>Email:</span>
+          <p className="flex flex-wrap items-baseline">
             <EmailMenu tone="onNavy" />
+            <span>: {site.email}</span>
           </p>
           <p>
             Phone:{" "}
@@ -22,10 +22,7 @@ export function SiteFooter() {
             </a>
           </p>
         </div>
-        <nav
-          aria-label="Contact links"
-          className="flex flex-wrap items-center gap-x-3 pt-2 text-sm"
-        >
+        <p className="border-t border-ivory/20 pt-4 text-sm tracking-wide">
           <a
             href={site.linkedin}
             className={linkClassName}
@@ -34,10 +31,11 @@ export function SiteFooter() {
           >
             LinkedIn
           </a>
+          <span aria-hidden="true"> : </span>
           <a href={site.downloadsHref} className={linkClassName}>
             Downloads
           </a>
-        </nav>
+        </p>
       </div>
     </footer>
   );
