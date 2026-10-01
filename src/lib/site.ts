@@ -6,6 +6,9 @@ export const site = {
   name: "Alex Cox",
   slogan: "Investment · Consulting · Finance",
   email: "alex.louis.cox@gmail.com",
+  displayName: "Alexander Cox",
+  phone: "07834620819",
+  phoneHref: "tel:+447834620819",
   emailProviders: [
     {
       label: "Outlook",

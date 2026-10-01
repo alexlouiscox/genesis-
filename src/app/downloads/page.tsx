@@ -41,8 +41,8 @@ export default function DownloadsPage() {
             ))}
           </div>
         </section>
-        <SiteFooter />
       </div>
+      <SiteFooter />
     </main>
   );
 }

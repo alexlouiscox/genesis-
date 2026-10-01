@@ -10,7 +10,6 @@ import { site } from "@/lib/site";
 export default function Home() {
   return (
     <main className="flex flex-1 flex-col bg-ivory">
-      <h1 className="sr-only">{site.name}</h1>
       <Hero />
       <div className="mx-auto w-full max-w-5xl px-5 pt-12 pb-4 sm:px-8 sm:pt-16 md:px-10">
         <div className="flex flex-col gap-12 md:gap-16">
@@ -18,9 +17,24 @@ export default function Home() {
             className="flex flex-col gap-6"
             aria-labelledby="intro-heading"
           >
-            <BlockHeading id="intro-heading">
-              {site.headings.intro}
-            </BlockHeading>
+            <div>
+              <div className="flex items-center justify-between gap-4">
+                <h2
+                  id="intro-heading"
+                  className="text-[1.75rem] leading-tight font-semibold tracking-tight text-copper md:text-3xl"
+                >
+                  {site.headings.intro}
+                </h2>
+                <span
+                  aria-hidden="true"
+                  className="size-10 shrink-0 rounded-full border-2 border-forest md:size-12"
+                />
+              </div>
+              <span
+                className="mt-2 block h-0.5 w-10 bg-copper"
+                aria-hidden="true"
+              />
+            </div>
             <Intro />
           </section>
           <section
@@ -49,8 +63,8 @@ export default function Home() {
             <Study />
           </section>
         </div>
-        <SiteFooter />
       </div>
+      <SiteFooter />
     </main>
   );
 }

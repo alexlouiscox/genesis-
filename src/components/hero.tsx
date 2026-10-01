@@ -47,67 +47,69 @@ export function Hero() {
     }
   }
 
+  const mediaClassName = showVideo
+    ? "absolute inset-0 h-full w-full object-contain object-top"
+    : "absolute inset-0 h-full w-full object-contain object-top opacity-0";
+
   return (
-    <header className="relative h-64 w-full overflow-hidden bg-hero md:h-80 lg:h-96">
-      <Image
-        src={site.hero.posterSrc}
-        alt=""
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover"
-      />
-      {!reducedMotion ? (
-        <video
-          ref={videoRef}
-          className={
-            showVideo
-              ? "absolute inset-0 h-full w-full object-cover"
-              : "absolute inset-0 h-full w-full object-cover opacity-0"
-          }
-          poster={site.hero.posterSrc}
-          src={site.hero.videoSrc}
-          muted
-          loop
-          playsInline
-          autoPlay
-          preload="auto"
-          onCanPlay={() => setVideoReady(true)}
-          onLoadedData={() => setVideoReady(true)}
-          onPlay={() => setPlaying(true)}
-          onPause={() => setPlaying(false)}
-          onError={() => {
-            setVideoReady(false);
-            setPlaying(false);
-          }}
+    <section className="relative w-full overflow-hidden bg-hero" aria-label="Hero">
+      <div className="relative aspect-video w-full">
+        <Image
+          src={site.hero.posterSrc}
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-contain object-top"
         />
-      ) : null}
-      <div
-        className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent"
-        aria-hidden="true"
-      />
-      {showVideo ? (
-        <div className="absolute bottom-4 left-4 z-10 sm:bottom-5 sm:left-6">
-          <Button
-            type="button"
-            variant="outline"
-            size="sm"
-            onClick={togglePlayback}
-            aria-label={playing ? "Pause hero video" : "Play hero video"}
-            className="border-ivory/35 bg-hero/60 text-ivory hover:bg-hero/80 hover:text-ivory"
-          >
-            {playing ? (
-              <Pause className="size-3.5" />
-            ) : (
-              <Play className="size-3.5" />
-            )}
-            {playing ? "Pause" : "Play"}
-          </Button>
-        </div>
-      ) : null}
-      <p className="absolute right-4 bottom-4 z-10 text-right text-sm font-medium tracking-wide text-ivory sm:right-8 sm:bottom-5 sm:text-base">
-        {site.slogan}
-      </p>
-    </header>
+        {!reducedMotion ? (
+          <video
+            ref={videoRef}
+            className={mediaClassName}
+            poster={site.hero.posterSrc}
+            src={site.hero.videoSrc}
+            muted
+            loop
+            playsInline
+            autoPlay
+            preload="auto"
+            onCanPlay={() => setVideoReady(true)}
+            onLoadedData={() => setVideoReady(true)}
+            onPlay={() => setPlaying(true)}
+            onPause={() => setPlaying(false)}
+            onError={() => {
+              setVideoReady(false);
+              setPlaying(false);
+            }}
+          />
+        ) : null}
+        <div
+          className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/40 to-transparent"
+          aria-hidden="true"
+        />
+        {showVideo ? (
+          <div className="absolute bottom-3 left-3 z-10 sm:bottom-4 sm:left-5">
+            <Button
+              type="button"
+              variant="outline"
+              size="sm"
+              onClick={togglePlayback}
+              aria-label={playing ? "Pause hero video" : "Play hero video"}
+              className="border-ivory/35 bg-hero/60 text-ivory hover:bg-hero/80 hover:text-ivory"
+            >
+              {playing ? (
+                <Pause className="size-3.5" />
+              ) : (
+                <Play className="size-3.5" />
+              )}
+              {playing ? "Pause" : "Play"}
+            </Button>
+          </div>
+        ) : null}
+        <p className="absolute right-3 bottom-3 z-10 text-right text-sm font-medium tracking-wide text-ivory sm:right-6 sm:bottom-4 sm:text-base">
+          {site.slogan}
+        </p>
+      </div>
+    </section>
   );
 }

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Lora } from "next/font/google";
+import { SiteHeader } from "@/components/site-header";
 import "./globals.css";
 
 const lora = Lora({
@@ -16,6 +17,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en-GB" className={`${lora.variable} h-full antialiased`}>
       <body className="flex min-h-full flex-col overflow-x-hidden font-serif">
+        <SiteHeader />
         {children}
       </body>
     </html>

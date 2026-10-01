@@ -8,17 +8,23 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { site } from "@/lib/site";
 
-const linkClassName =
-  "cursor-pointer bg-transparent p-0 text-sm text-copper underline-offset-4 transition-colors hover:text-copper/80 hover:underline";
+type EmailMenuProps = {
+  tone?: "default" | "onNavy";
+};
 
-export function EmailMenu() {
+export function EmailMenu({ tone = "default" }: EmailMenuProps) {
+  const triggerClassName =
+    tone === "onNavy"
+      ? "cursor-pointer bg-transparent p-0 text-left text-sm text-ivory underline-offset-4 transition-colors hover:text-ivory/80 hover:underline"
+      : "cursor-pointer bg-transparent p-0 text-sm text-copper underline-offset-4 transition-colors hover:text-copper/80 hover:underline";
+
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger className={linkClassName}>
-        Email
+      <DropdownMenuTrigger className={triggerClassName}>
+        {site.email}
       </DropdownMenuTrigger>
       <DropdownMenuContent
-        align="end"
+        align="start"
         side="top"
         className="min-w-44 bg-ivory text-forest ring-ink/15"
       >
