@@ -54,7 +54,7 @@ export function Hero() {
     <section className="relative w-full overflow-x-hidden bg-hero" aria-label="Hero">
       <div
         className="relative w-full overflow-hidden"
-        style={{ aspectRatio: "16 / 6.75" }}
+        style={{ height: "min(42vh, 420px)" }}
       >
         <img
           src={site.hero.posterSrc}
