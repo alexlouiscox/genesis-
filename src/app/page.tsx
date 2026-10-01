@@ -35,9 +35,9 @@ export default function Home() {
                     className="object-cover"
                     style={{
                       objectFit: "cover",
-                      objectPosition: "50% 40%",
-                      transform: "scale(1.3)",
-                      transformOrigin: "50% 40%",
+                      objectPosition: "50% 38%",
+                      transform: "scale(1.4)",
+                      transformOrigin: "50% 38%",
                     }}
                     priority
                   />
