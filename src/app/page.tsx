@@ -36,7 +36,7 @@ export default function Home() {
                     style={{
                       objectFit: "cover",
                       objectPosition: "50% 40%",
-                      transform: "scale(1.6)",
+                      transform: "scale(1.3)",
                       transformOrigin: "50% 40%",
                     }}
                     priority
