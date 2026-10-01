@@ -17,8 +17,8 @@ export default function Home() {
             className="flex flex-col gap-6"
             aria-labelledby="intro-heading"
           >
-            <div>
-              <div className="flex items-center gap-5 md:gap-7">
+            <div className="flex items-center gap-12 md:gap-16">
+              <div>
                 <h2
                   id="intro-heading"
                   className="text-[1.75rem] leading-tight font-semibold tracking-tight text-copper md:text-3xl"
@@ -26,13 +26,13 @@ export default function Home() {
                   {site.headings.intro}
                 </h2>
                 <span
+                  className="mt-2 block h-0.5 w-10 bg-copper"
                   aria-hidden="true"
-                  className="size-16 shrink-0 rounded-full border-2 border-forest md:size-20"
                 />
               </div>
               <span
-                className="mt-2 block h-0.5 w-10 bg-copper"
                 aria-hidden="true"
+                className="size-24 shrink-0 rounded-full border-2 border-forest md:size-28"
               />
             </div>
             <Intro />
