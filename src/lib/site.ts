@@ -135,7 +135,7 @@ export const site = {
   education: [
     {
       title: "Entrepreneurial Finance and Intellectual Property",
-      body: "Conducted a full venture capital due diligence report on Spring Broth Ltd, a live crowdcube investment case. Report included: market sizing, valuation modelling, cap table analysis and return scenario forecasting. (Reference: Dimo Dimov)",
+      body: "Conducted a full venture capital due diligence report on Spring Broth, a live crowdcube investment case. Report included: market sizing, valuation modelling, cap table analysis and return scenario forecasting. (Reference: Dimo Dimov)",
       achievement: "86%",
       result: undefined,
     },
