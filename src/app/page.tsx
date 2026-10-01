@@ -65,7 +65,7 @@ export default function Home() {
             <Education />
           </section>
           <section
-            className="flex flex-col gap-6"
+            className="-mt-8 flex flex-col gap-6 md:-mt-10"
             aria-labelledby="study-heading"
           >
             <BlockHeading id="study-heading">{site.headings.study}</BlockHeading>
