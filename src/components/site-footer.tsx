@@ -22,7 +22,7 @@ export function SiteFooter() {
             </a>
           </p>
         </div>
-        <p className="pt-1 text-sm text-ivory">
+        <p className="pt-1 text-base text-ivory" data-footer-closer="">
           <a
             href={site.linkedin}
             className={linkClassName}
@@ -31,7 +31,7 @@ export function SiteFooter() {
           >
             LinkedIn
           </a>
-          <span> : </span>
+          <span className="text-lg font-semibold text-ivory"> : </span>
           <a href={site.downloadsHref} className={linkClassName}>
             Downloads
           </a>

@@ -32,7 +32,7 @@ export default function Home() {
               </div>
               <span
                 aria-hidden="true"
-                className="size-24 shrink-0 rounded-full border-2 border-forest md:size-28"
+                className="size-[180px] shrink-0 rounded-full border-[3px] border-forest"
               />
             </div>
             <Intro />
