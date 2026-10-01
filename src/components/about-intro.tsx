@@ -56,18 +56,23 @@ export function AboutIntro() {
           ))}
         </div>
         <div
-          className="relative size-[72px] shrink-0 overflow-hidden rounded-full border-2 border-forest"
-          style={{ marginTop: Math.max(0, offset) }}
           data-about-portrait=""
+          className="relative shrink-0 overflow-hidden rounded-full border-2 border-forest"
+          style={{
+            width: CIRCLE_PX,
+            height: CIRCLE_PX,
+            marginTop: Math.max(0, offset),
+          }}
         >
           <img
             src="/alex-cox.jpg"
             alt="Alexander Cox"
-            className="absolute left-1/2 h-[170%] w-[170%] max-w-none object-cover"
+            className="absolute left-1/2 top-1/2 max-w-none object-cover"
             style={{
-              objectPosition: "50% 32%",
-              top: "50%",
-              transform: "translate(-50%, -48%)",
+              width: "175%",
+              height: "175%",
+              objectPosition: "50% 30%",
+              transform: "translate(-50%, -42%)",
             }}
           />
         </div>
