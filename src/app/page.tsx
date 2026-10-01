@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { BlockHeading } from "@/components/block-heading";
 import { Education } from "@/components/education";
 import { Experience } from "@/components/experience";
@@ -30,10 +31,16 @@ export default function Home() {
                   aria-hidden="true"
                 />
               </div>
-              <span
-                aria-hidden="true"
-                className="size-[180px] shrink-0 rounded-full border-[3px] border-forest"
-              />
+              <div className="relative size-[180px] shrink-0 overflow-hidden rounded-full border-[3px] border-forest">
+                <Image
+                  src="/alex-cox.jpg"
+                  alt="Alexander Cox"
+                  fill
+                  sizes="180px"
+                  className="object-cover object-[50%_28%]"
+                  priority
+                />
+              </div>
             </div>
             <Intro />
           </section>
