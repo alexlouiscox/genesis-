@@ -11,7 +11,10 @@ const lora = Lora({
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
-  title: "Alex Cox",
+  title: {
+    default: "Alexander Cox",
+    template: "%s · Alexander Cox",
+  },
   description: "Investment · Consulting · Finance",
   alternates: {
     canonical: "/",

@@ -5,8 +5,8 @@ import { SiteFooter } from "@/components/site-footer";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Downloads · Alex Cox",
-  description: "University work from Alex Cox — report, essay and dissertation.",
+  title: "Downloads",
+  description: "University work from Alexander Cox — report, essay and dissertation.",
 };
 
 export default function DownloadsPage() {

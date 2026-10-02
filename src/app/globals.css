@@ -44,6 +44,7 @@
   --color-emerald: var(--copper);
   --color-copper: var(--copper);
   --color-forest: var(--forest);
+  --color-graphite: var(--graphite);
   --color-hero: var(--hero);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
@@ -58,6 +59,7 @@
   --hero: #0b1f3a;
   --ink: #0b1f3a;
   --forest: #0b1f3a;
+  --graphite: #4c4e52;
   --ivory: #ffffff;
   --copper: #0b1f3a;
   --emerald: #0b1f3a;

@@ -82,6 +82,12 @@ export function Hero() {
             }}
           />
         ) : null}
+        <img
+          src={site.hero.logoSrc}
+          alt={site.hero.logoAlt}
+          className="pointer-events-none absolute top-3 left-3 z-10 h-auto w-[min(46vw,188px)] sm:top-4 sm:left-5 sm:w-[210px]"
+          style={{ mixBlendMode: "multiply" }}
+        />
         <div
           className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/40 to-transparent"
           aria-hidden="true"

@@ -35,14 +35,14 @@ export default function Home() {
             </div>
             <div
               data-about-portrait=""
-              className="relative shrink-0 overflow-hidden rounded-full border-2 border-forest"
+              className="relative shrink-0 overflow-hidden rounded-full border-2 border-graphite"
               style={{ width: 132, height: 132 }}
             >
               <img
                 src="/alex-cox.jpg"
                 alt="Alexander Cox"
                 className="h-full w-full object-cover"
-                style={{ objectPosition: "50% 24%" }}
+                style={{ objectPosition: "50% 36%" }}
               />
             </div>
           </section>

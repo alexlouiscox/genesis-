@@ -3,7 +3,7 @@
  */
 
 export const site = {
-  name: "Alex Cox",
+  name: "Alexander Cox",
   url: "https://www.alexandercox.site",
   slogan: "Investment · Consulting · Finance",
   email: "alex.louis.cox@gmail.com",
@@ -55,6 +55,8 @@ export const site = {
   hero: {
     videoSrc: "/hero.mp4",
     posterSrc: "/hero-poster.jpg",
+    logoSrc: "/kinectid-logo.png",
+    logoAlt: "Kinectid",
   },
   headings: {
     intro: "About me",

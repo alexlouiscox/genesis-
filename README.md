@@ -1,4 +1,4 @@
-# Alex Cox
+# Alexander Cox
 
 One-page personal site: investment, consulting, and finance. Next.js, TypeScript, Tailwind, and shadcn/ui. Ready to import into Vercel Hobby.
 
