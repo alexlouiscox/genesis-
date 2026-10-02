@@ -82,14 +82,14 @@ export function Hero() {
             }}
           />
         ) : null}
-        <div className="pointer-events-none absolute top-3 left-4 z-10 flex items-center gap-2 text-lg font-semibold tracking-wide text-ivory sm:top-4 sm:left-5 sm:gap-2.5 sm:text-xl">
+        <div className="pointer-events-none absolute top-3 left-4 z-10 flex items-center gap-2.5 text-lg font-semibold tracking-wide text-ivory sm:top-4 sm:left-5 sm:gap-3 sm:text-xl">
           <p className="[text-shadow:0_1px_2px_rgba(11,31,58,0.9),0_0_10px_rgba(11,31,58,0.45)]">
-            kinectid
+            Kinectid
           </p>
           <img
             src={site.hero.logoMarkSrc}
             alt=""
-            className="h-[1.28em] w-auto"
+            className="h-[1.75em] w-auto"
           />
         </div>
         <div
