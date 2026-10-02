@@ -85,7 +85,7 @@ export function Hero() {
         <img
           src={site.hero.logoSrc}
           alt="Kinectid"
-          className="pointer-events-none absolute top-3 right-4 z-10 h-auto w-[120px] sm:top-4 sm:right-5 sm:w-[142px]"
+          className="pointer-events-none absolute top-3 right-4 z-10 h-12 w-auto sm:top-4 sm:right-5 sm:h-14"
           style={{
             filter:
               "drop-shadow(0 1px 2px rgba(11,31,58,0.9)) drop-shadow(0 0 8px rgba(11,31,58,0.4))",
