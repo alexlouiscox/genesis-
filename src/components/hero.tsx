@@ -82,16 +82,15 @@ export function Hero() {
             }}
           />
         ) : null}
-        <div className="pointer-events-none absolute top-3 left-4 z-10 flex items-center gap-2.5 text-lg font-semibold tracking-wide text-ivory sm:top-4 sm:left-5 sm:gap-3 sm:text-xl">
-          <p className="[text-shadow:0_1px_2px_rgba(11,31,58,0.9),0_0_10px_rgba(11,31,58,0.45)]">
-            Kinectid
-          </p>
-          <img
-            src={site.hero.logoMarkSrc}
-            alt=""
-            className="h-[1.75em] w-auto"
-          />
-        </div>
+        <img
+          src={site.hero.logoSrc}
+          alt="Kinectid"
+          className="pointer-events-none absolute top-3 right-4 z-10 h-auto w-[120px] sm:top-4 sm:right-5 sm:w-[142px]"
+          style={{
+            filter:
+              "drop-shadow(0 1px 2px rgba(11,31,58,0.9)) drop-shadow(0 0 8px rgba(11,31,58,0.4))",
+          }}
+        />
         <div
           className="pointer-events-none absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/40 to-transparent"
           aria-hidden="true"

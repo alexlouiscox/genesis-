@@ -55,7 +55,7 @@ export const site = {
   hero: {
     videoSrc: "/hero.mp4",
     posterSrc: "/hero-poster.jpg",
-    logoMarkSrc: "/kinectid-mark.png",
+    logoSrc: "/kinectid-video-logo.png",
   },
   headings: {
     intro: "About me",
